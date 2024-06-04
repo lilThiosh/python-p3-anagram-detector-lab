@@ -11,7 +11,7 @@ class Anagram:
                 matches.append(word)
         return matches
 
-# Test the functionality
+
 if __name__ == "__main__":
     listen = Anagram("listen")
-    print(listen.match(['enlists', 'google', 'inlets', 'banana']))  # Expected output: ['inlets']
+    print(listen.match(['enlists', 'google', 'inlets', 'banana']))  
